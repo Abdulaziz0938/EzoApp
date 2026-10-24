@@ -16,13 +16,21 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.ezoapp.EzoApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-video"
-    ]
+      "expo-video",
+      "expo-font",
+      "expo-build-properties"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "67aba703-66d2-4bff-a474-70d9a48c4181"
+      }
+    }
   }
 }
