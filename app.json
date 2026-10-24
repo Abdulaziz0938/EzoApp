@@ -25,7 +25,8 @@
     "plugins": [
       "expo-video",
       "expo-font",
-      "expo-build-properties"
+      "expo-build-properties",
+      "./withZegoBuildConfig"
     ],
     "extra": {
       "eas": {
